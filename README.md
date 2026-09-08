@@ -52,8 +52,7 @@ Future activities may include:
 
 ## 🏗️ Lab Architecture
 
-
-───────────────
+(Screenshot-lab-architecture.png)
                     
 
 ---
