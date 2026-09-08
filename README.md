@@ -52,9 +52,7 @@ Future activities may include:
 
 ## 🏗️ Lab Architecture
 
-![lab Architecture] (1-Screenshot-lab-architecture.png)
-                    
-
+![Lab Architecture] (./1-Screenshot-lab-architecture.png)
 ---
 
 ## ⚙️ Lab Configuration
