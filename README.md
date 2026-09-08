@@ -64,7 +64,7 @@ Future activities may include:
 
 | Component | Configuration |
 |---|---|
-| Host OS | Windows |
+| Host OS | Windows 10 |
 | Hypervisor | VirtualBox 7.2.16 |
 | Security OS | Kali Linux 2026.2 |
 | Virtual Network | NAT Network |
@@ -393,7 +393,7 @@ Any penetration-testing or exploitation activity should be performed only agains
 
 - [VirtualBox](https://www.virtualbox.org/)
 - [Kali Linux](https://www.kali.org/get-kali/)
-- [7-Zip](https://7-zip.org/)
+  
 
 
 
