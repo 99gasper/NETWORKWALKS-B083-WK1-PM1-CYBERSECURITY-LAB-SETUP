@@ -52,30 +52,9 @@ Future activities may include:
 
 ## 🏗️ Lab Architecture
 
-```text
-                    Internet
-                       │
-                       │
-              ┌─────────────────┐
-              │ VirtualBox NAT  │
-              │     Network     │
-              │   CyberLab      │
-              │  10.0.0.0/24   │
-              └────────┬────────┘
-                       │
-                 Gateway
-                10.0.0.1
-                       │
-                       │
-              ┌────────▼────────┐
-              │   Kali Linux    │
-              │ 10.0.0.2/24     │
-              │ Security Machine │
-              └─────────────────┘
 
-        Future target VMs can be added
-        to the same NAT Network.
-```
+───────────────
+                    
 
 ---
 
@@ -93,10 +72,7 @@ Future activities may include:
 | Default Gateway | `10.0.0.1` |
 | Primary DNS | `8.8.8.8` |
 | Secondary DNS | `1.1.1.1` |
-| DHCP | Enabled on NAT Network |
-| IPv6 | Disabled on NAT Network |
 
-The lab assignment specifies the `10.0.0.0/24` NAT Network and Kali address `10.0.0.2/24`. fileciteturn1file0L11-L20
 
 ---
 
@@ -106,7 +82,7 @@ The lab assignment specifies the `10.0.0.0/24` NAT Network and Kali address `10.
 
 VirtualBox was used as the hypervisor, and Kali Linux 2026.2 was imported as the security-testing virtual machine.
 
-The project instructions require VirtualBox and Kali Linux as the main components of the lab. fileciteturn1file0L11-L20
+The project instructions require VirtualBox and Kali Linux as the main components of the lab.
 
 ---
 
@@ -416,29 +392,18 @@ Any penetration-testing or exploitation activity should be performed only agains
 - [VirtualBox](https://www.virtualbox.org/)
 - [Kali Linux](https://www.kali.org/get-kali/)
 - [7-Zip](https://7-zip.org/)
-- [Original Lab Instructions](https://www.networkwalks.com/)
 
-The lab handout lists 7-Zip, VirtualBox, and Kali Linux as the main setup resources. fileciteturn1file0L51-L58
+
+
 
 ---
 
 # 👤 Author
 
-**Name:** Your Name  
+**Name:** Gasper Boniphace 
 **Project:** Cybersecurity Lab Setup  
 **Week:** 01  
 **Module:** Cybersecurity & Penetration Testing Lab Setup
 
----
 
-## 📌 Project Status
 
-✅ VirtualBox configured  
-✅ Kali Linux imported  
-✅ CyberLab NAT Network created  
-✅ Kali connected to NAT Network  
-✅ Kali static IP configured  
-✅ Gateway connectivity verified  
-✅ Internet connectivity verified  
-✅ DNS resolution fixed and verified  
-🔄 Additional target VMs can be added in future lab exercises
